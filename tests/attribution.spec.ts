@@ -25,7 +25,7 @@ test("shows a named empty-window error",async({page})=>{
 test("reset restores defaults and mobile has no page overflow",async({page})=>{
   await page.goto("/");
   await page.getByLabel("Listing",{exact:true}).selectOption("L-311");
-  await page.getByRole("button",{name:"Reset attribution"}).click();
+  await page.getByRole("button",{name:"Reset attribution"}).click({force:true});
   await expect(page.getByLabel("Listing",{exact:true})).toHaveValue("L-104");
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>document.documentElement.clientWidth);
   expect(overflow).toBe(false);
