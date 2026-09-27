@@ -1,0 +1,26 @@
+{
+  "notice": "Fictional demonstration data; not connected to TikTok, an MLS, or a CRM.",
+  "listings": [
+    {"id":"L-104","address":"18 Harbor Pine Way","price":785000,"status":"Closed","closedRevenue":18840},
+    {"id":"L-208","address":"402 Juniper Court","price":629000,"status":"Pending","closedRevenue":0},
+    {"id":"L-311","address":"77 Alder Ridge","price":1125000,"status":"Active","closedRevenue":0}
+  ],
+  "videos": [
+    {"id":"V-1","listingId":"L-104","title":"Kitchen reveal in 12 seconds","hook":"The island nobody expects","format":"Walkthrough","length":18,"views":48200,"saves":1380,"published":"2026-08-04"},
+    {"id":"V-2","listingId":"L-104","title":"Commute test: door to downtown","hook":"Can you beat 22 minutes?","format":"POV","length":27,"views":21900,"saves":604,"published":"2026-08-06"},
+    {"id":"V-3","listingId":"L-208","title":"Three details under $630k","hook":"Look past the first photo","format":"Listicle","length":31,"views":36700,"saves":1112,"published":"2026-08-19"},
+    {"id":"V-4","listingId":"L-208","title":"Sunset patio walkthrough","hook":"Wait for the last room","format":"Walkthrough","length":24,"views":15400,"saves":489,"published":"2026-08-21"},
+    {"id":"V-5","listingId":"L-311","title":"What $1.1M buys on the ridge","hook":"The view is not the best part","format":"Walkthrough","length":42,"views":62100,"saves":1940,"published":"2026-09-02"}
+  ],
+  "events": [
+    {"listingId":"L-104","videoId":"V-1","type":"lead","daysAfter":2,"value":1},
+    {"listingId":"L-104","videoId":"V-1","type":"showing","daysAfter":6,"value":1},
+    {"listingId":"L-104","videoId":"V-1","type":"close","daysAfter":24,"value":18840},
+    {"listingId":"L-104","videoId":"V-2","type":"lead","daysAfter":4,"value":1},
+    {"listingId":"L-104","videoId":"V-2","type":"showing","daysAfter":11,"value":1},
+    {"listingId":"L-208","videoId":"V-3","type":"lead","daysAfter":1,"value":1},
+    {"listingId":"L-208","videoId":"V-3","type":"showing","daysAfter":9,"value":1},
+    {"listingId":"L-208","videoId":"V-4","type":"lead","daysAfter":15,"value":1},
+    {"listingId":"L-311","videoId":"V-5","type":"lead","daysAfter":3,"value":1}
+  ]
+}
